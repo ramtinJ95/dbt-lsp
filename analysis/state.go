@@ -1,5 +1,11 @@
 package analysis
 
+import (
+	"fmt"
+
+	"github.com/ramtinJ95/dbt-lsp/lsp"
+)
+
 type State struct {
 	Documents map[string]string
 }
@@ -14,4 +20,17 @@ func (s *State) OpenDocument(uri, text string) {
 
 func (s *State) UpdateDocument(uri, text string) {
 	s.Documents[uri] = text
+}
+
+func (s *State) Hover(id int, uri string, position lsp.Position) lsp.HoverResponse {
+	document := s.Documents[uri]
+	return lsp.HoverResponse{
+		Response: lsp.Response{
+			RPC: "2.0",
+			ID:  &id,
+		},
+		Result: lsp.HoverResult{
+			Contents: fmt.Sprintf("File: %s, Characters: %d", uri, len(document)),
+		},
+	}
 }
