@@ -1,13 +1,45 @@
-[dbt-lsp]2025/12/25 17:38:48 main.go:15: hey i started
-[dbt-lsp]2025/12/25 17:38:48 main.go:31: Recived msg with method: initialize
-[dbt-lsp]2025/12/25 17:38:48 main.go:39: Connected to: Neovim 0.11.5+v0.11.5
-[dbt-lsp]2025/12/25 17:38:48 main.go:48: sent the reply: Content-Length: 130
+[dbt-lsp]2025/12/25 18:06:51 main.go:16: hey i started
+[dbt-lsp]2025/12/25 18:06:51 main.go:34: Recived msg with method: initialize
+[dbt-lsp]2025/12/25 18:06:51 main.go:42: Connected to: Neovim 0.11.5+v0.11.5
+[dbt-lsp]2025/12/25 18:06:51 main.go:51: sent the reply: Content-Length: 130
 
 {"jsonrpc":"2.0","id":1,"result":{"capabilities":{"textDocumentSync":1},"serverinfo":{"name":"dpt-lsp","version":"0.0.0.0-beta"}}}
-[dbt-lsp]2025/12/25 17:38:48 main.go:31: Recived msg with method: initialized
-[dbt-lsp]2025/12/25 17:38:48 main.go:31: Recived msg with method: textDocument/didOpen
-[dbt-lsp]2025/12/25 17:38:48 main.go:53: hey could not parse this: json: cannot unmarshal number into Go struct field TextDocumentItem.params.textDocument.version of type string
-[dbt-lsp]2025/12/25 17:38:48 main.go:55: Opened: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md # dbt-lsp
-Lsp for dbt. I cant stand not having a proper lsp in Neovim for dbt
- 
-[dbt-lsp]2025/12/25 17:44:07 main.go:31: Recived msg with method: shutdown
+[dbt-lsp]2025/12/25 18:06:51 main.go:34: Recived msg with method: initialized
+[dbt-lsp]2025/12/25 18:06:51 main.go:34: Recived msg with method: textDocument/didOpen
+[dbt-lsp]2025/12/25 18:06:51 main.go:56: textDocument/didOpen: json: cannot unmarshal number into Go struct field TextDocumentItem.params.textDocument.version of type string
+[dbt-lsp]2025/12/25 18:06:54 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:54 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:54 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:54 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:55 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:55 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:55 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:55 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:56 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:56 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:56 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:56 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:57 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:57 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:57 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:57 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:58 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:58 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:58 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:58 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:59 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:59 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:59 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:59 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:59 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:59 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:06:59 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:06:59 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:07:00 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:07:00 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:07:00 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:07:00 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:07:00 main.go:34: Recived msg with method: textDocument/didChange
+[dbt-lsp]2025/12/25 18:07:00 main.go:69: Changed: file:///home/ramtinj/personal-workspace/dbt-lsp/README.md
+[dbt-lsp]2025/12/25 18:07:02 main.go:34: Recived msg with method: textDocument/didSave
+[dbt-lsp]2025/12/25 18:07:34 main.go:34: Recived msg with method: shutdown
